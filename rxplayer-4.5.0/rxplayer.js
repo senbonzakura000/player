@@ -27,7 +27,7 @@ Make sure to dispose the previous instance with player.dispose() before creating
                             <div class="rx-text-track" data-rx="rx-text-track"></div>
                             <div class="rx-debug-element" data-rx="rx-debug-element"></div>
                             <video data-rx="rx-video" muted playsinline></video>
-                            <div class="rx-video-player-spinner spinner wave-dots" data-rx="rx-spinner" aria-label="Loading"><span></span><span></span><span></span><span></span><span></span></div>
+                            <div class="rx-video-player-spinner" data-rx="rx-spinner" role="status" aria-label="Loading"></div>
                             <div class="rx-player-error hidden" data-rx="rx-error-box">
                                 <span class="rx-error-icon"><i class="bi bi-exclamation-triangle-fill"></i></span>
                                 <span class="rx-error-intro">Playback error</span>
